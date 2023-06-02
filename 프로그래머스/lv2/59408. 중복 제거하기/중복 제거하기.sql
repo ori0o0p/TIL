@@ -1,0 +1,4 @@
+-- 코드를 입력하세요
+SELECT COUNT(DISTINCT NAME)
+from ANIMAL_INS
+where NAME <> 'NULL'
